@@ -16,13 +16,26 @@ body {
     overflow-x: hidden;
 }
 
-.my_container{
-    position: absolute;
-    width: 40%;
-    left: 30%;
-    height: 80%;
-    top: 10%;
-    background-color: aliceblue;
+@media only screen and (min-width: 768px) {
+    .my_container{
+        position: absolute;
+        width: 40%;
+        left: 30%;
+        height: 80%;
+        top: 10%;
+        background-color: aliceblue;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .my_container{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        top: 0;
+        background-color: aliceblue;
+    }
 }
 
 .header{
@@ -77,6 +90,7 @@ body {
     background-color: #74197c;
     color: #ffffff;
     height: 100%;
+    width: 80%;
     outline: none;
     font-size: 20px;
     padding-left: 10px;
