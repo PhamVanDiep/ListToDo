@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.my_container{
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 80%;
+    top: 10%;
+    background-color: aliceblue;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+
+.center{
+    position: absolute;
+    height: 75%;
+    top: 15%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#input_task_wrap{
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+}
+
+#input_task{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+}
+
+#input_task input{
+    height: 100%;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid rgb(97, 95, 95);
+}
+
+#add-btn-wrap{
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    left: 85%;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+
+#add-btn-wrap button{
+    border: none;
+    background-color: #74197c;
+    color: #ffffff;
+    height: 100%;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#list_task{
+    position: absolute;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+}
+
+.task{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #cfcbcb;
+    overflow-y: auto;
+}
+
+.task-name-wrap{
+    position: absolute;
+    width: 72%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 3%;
+    display: table;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-name-wrap span{
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.task-name-wrap input{
+    display: none;
+    font-size: 18px;
+    height: 30px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.tools-wrap{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    margin-top: 10px;
+    height: 40px;
+    display: table;
+    text-align: center;
+}
+
+.edit-task-name-wrap{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    justify-content: right;
+}
+
+.delete-task-name-wrap{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-btn{
+    font-size: 18px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.edit-btn{
+    background-color: #522dda;
+    color: white;
+}
+
+.del-btn{
+    background-color: #fa2323;
+    color: white;
+}
+
+.foot{
+    position: absolute;
+    height: 10%;
+    top: 90%;
+    width: 100%;
+}
+
+.save-btn{
+    color: green;
+}
+
+.cancel-btn{
+    color: red;
+}

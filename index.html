@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List To Do</title>
+        <link rel="stylesheet" href="./style.css">
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+        <div class="my_container">
+            <div class="header">
+                <h3>List To Do using JavaScript</h3>
+            </div>
+            <div class="center">
+                <div id="input_task_wrap">
+                    <div id="input_task" class="btn-group">
+                        <input type="text" placeholder="Add your new todo" id="new-task">
+                    </div>
+                    <div id="add-btn-wrap" class="btn-group">
+                        <button id="add-btn"><span class="glyphicon glyphicon-plus"></span></button>
+                    </div>
+                </div>
+                <div id="list_task">
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new car</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new house</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new company</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="task btn-vertical-group">
+                        <div class="task-name-wrap">
+                            <span class="task-name">Buy a new gaming laptop</span>
+                            <input type="text" class="rename-task">
+                        </div>
+                        <div class="tools-wrap">
+                            <div class="edit-task-name-wrap">
+                                <button class="glyphicon glyphicon-edit main-btn edit-btn"></button>
+                                <button class="glyphicon glyphicon-ok main-btn save-btn" style="display: none;"></button>
+                            </div>
+                            <div class="delete-task-name-wrap">
+                                <button class="glyphicon glyphicon-trash main-btn del-btn"></button>
+                                <button class="glyphicon glyphicon-remove main-btn cancel-btn" style="display: none;"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot"></div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
